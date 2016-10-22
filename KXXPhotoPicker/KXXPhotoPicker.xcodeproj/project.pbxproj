@@ -18,9 +18,9 @@
 		60A48BF91DBAF24600406D75 /* KXXPhotoPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A48BF71DBAF24600406D75 /* KXXPhotoPicker.m */; };
 		60A48BFA1DBAF24600406D75 /* KXXPhotoPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60A48BF81DBAF24600406D75 /* KXXPhotoPicker.xib */; };
 		60A48BFD1DBAF43400406D75 /* KXXCameraCaptureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A48BFC1DBAF43400406D75 /* KXXCameraCaptureCell.m */; };
-		60A48C011DBAFC9800406D75 /* camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60A48C001DBAFC9800406D75 /* camera@2x.png */; };
 		60A48C051DBB001C00406D75 /* KXXNormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A48C031DBB001C00406D75 /* KXXNormalCell.m */; };
 		60A48C061DBB001C00406D75 /* KXXNormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60A48C041DBB001C00406D75 /* KXXNormalCell.xib */; };
+		60A48C0C1DBB178200406D75 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 60A48C0B1DBB178200406D75 /* camera.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,12 +62,12 @@
 		60A48BF81DBAF24600406D75 /* KXXPhotoPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KXXPhotoPicker.xib; sourceTree = "<group>"; };
 		60A48BFB1DBAF43400406D75 /* KXXCameraCaptureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXXCameraCaptureCell.h; sourceTree = "<group>"; };
 		60A48BFC1DBAF43400406D75 /* KXXCameraCaptureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KXXCameraCaptureCell.m; sourceTree = "<group>"; };
-		60A48C001DBAFC9800406D75 /* camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera@2x.png"; sourceTree = "<group>"; };
 		60A48C021DBB001C00406D75 /* KXXNormalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXXNormalCell.h; sourceTree = "<group>"; };
 		60A48C031DBB001C00406D75 /* KXXNormalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KXXNormalCell.m; sourceTree = "<group>"; };
 		60A48C041DBB001C00406D75 /* KXXNormalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KXXNormalCell.xib; sourceTree = "<group>"; };
 		60A48C071DBB0A0F00406D75 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		60A48C081DBB0A0F00406D75 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		60A48C0B1DBB178200406D75 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +131,7 @@
 				60A48C021DBB001C00406D75 /* KXXNormalCell.h */,
 				60A48C031DBB001C00406D75 /* KXXNormalCell.m */,
 				60A48C041DBB001C00406D75 /* KXXNormalCell.xib */,
-				60A48C001DBAFC9800406D75 /* camera@2x.png */,
+				60A48C0B1DBB178200406D75 /* camera.png */,
 				60A48BCF1DBAF1C100406D75 /* Assets.xcassets */,
 				60A48BD11DBAF1C100406D75 /* LaunchScreen.storyboard */,
 				60A48BD41DBAF1C100406D75 /* Info.plist */,
@@ -271,10 +271,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				60A48BD31DBAF1C100406D75 /* LaunchScreen.storyboard in Resources */,
-				60A48C011DBAFC9800406D75 /* camera@2x.png in Resources */,
 				60A48C061DBB001C00406D75 /* KXXNormalCell.xib in Resources */,
 				60A48BD01DBAF1C100406D75 /* Assets.xcassets in Resources */,
 				60A48BFA1DBAF24600406D75 /* KXXPhotoPicker.xib in Resources */,
+				60A48C0C1DBB178200406D75 /* camera.png in Resources */,
 				60A48BCE1DBAF1C100406D75 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -539,6 +539,7 @@
 				60A48BEF1DBAF1C100406D75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60A48BF01DBAF1C100406D75 /* Build configuration list for PBXNativeTarget "KXXPhotoPickerTests" */ = {
 			isa = XCConfigurationList;
@@ -547,6 +548,7 @@
 				60A48BF21DBAF1C100406D75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60A48BF31DBAF1C100406D75 /* Build configuration list for PBXNativeTarget "KXXPhotoPickerUITests" */ = {
 			isa = XCConfigurationList;
@@ -555,6 +557,7 @@
 				60A48BF51DBAF1C100406D75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
